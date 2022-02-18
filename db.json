@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "date": "2/4",
+      "name": "rols",
+      "tittle": "g",
+      "description": "gnnn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/monosushi-ua.appspot.com/o/images%2F1!!!!.jpg?alt=media&token=e03fc5c9-205a-45a8-8b4e-711a3a3d0018",
+      "id": 1
+    },
+    {
+      "date": "2/4",
+      "name": "salat",
+      "tittle": "gggnnnn",
+      "description": "asdlkjf",
+      "image": "https://firebasestorage.googleapis.com/v0/b/monosushi-ua.appspot.com/o/images%2F1!!!!.jpg?alt=media&token=d5011d21-5e16-4d36-a172-9f280d098f82",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "date": "2/4",
+      "name": "ROLS",
+      "path": "rollleeee",
+      "weight": "500g",
+      "price": "500",
+      "ingredients": "fish rice meet",
+      "image": "https://firebasestorage.googleapis.com/v0/b/monosushi-ua.appspot.com/o/images%2Fla-pyets.jpg?alt=media&token=3047652a-4c7f-4156-8c0b-41c8ede71dc3",
+      "id": 1
+    },
+    {
+      "date": "2/4",
+      "name": "salat mumozely",
+      "path": "ggg",
+      "weight": "200",
+      "price": "1000",
+      "ingredients": "salate",
+      "image": "https://firebasestorage.googleapis.com/v0/b/monosushi-ua.appspot.com/o/images%2Flol%2C.png?alt=media&token=5e704a51-0bec-4c44-a625-ecec151ff829",
+      "id": 2
+    },
+    {
+      "date": "2/4",
+      "name": "g",
+      "path": "g",
+      "weight": "g",
+      "price": "g",
+      "ingredients": "g",
+      "image": "https://firebasestorage.googleapis.com/v0/b/monosushi-ua.appspot.com/o/images%2Fla-pyets.jpg?alt=media&token=e38f6510-df8a-4a85-92a5-6f4e7247a461",
+      "id": 3
+    }
+  ],
+  "discounts": [
+    {
+      "date": "2/4",
+      "name": "FREE ROLS",
+      "tittle": "Agngngng",
+      "description": "12352512",
+      "image": "https://firebasestorage.googleapis.com/v0/b/monosushi-ua.appspot.com/o/images%2Frols.png?alt=media&token=c859fa48-ff4d-4afd-b65d-ff78376b6e7c",
+      "id": 1
+    }
+  ]
+}

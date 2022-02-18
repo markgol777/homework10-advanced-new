@@ -1,0 +1,19 @@
+<app-general-products></app-general-products>
+
+<div style="display: flex;">
+<div class="product" *ngFor="let product of products" style="margin-right: 30px;">
+    <img class="product-img" [src]="product.image" alt="">
+    <p style="font-size: 20px; font-weight: 700;">{{product.name}}</p>
+    <div style="display: flex;">
+        <p class="font">{{product.ingredients}}</p>
+        <p class="font">{{product.path}}</p>
+        <p class="font" style="margin-left: 10px; margin-right: 10px;">{{product.price}}</p>
+        <p class="font">{{product.weight}}</p>
+    </div>
+    <div class="price-container">
+        <p class="price">{{product.price}}</p>
+        <div></div>
+        <button class="btn-order">order</button>
+    </div>
+</div>
+</div>

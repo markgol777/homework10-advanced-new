@@ -1,0 +1,36 @@
+* {
+    font-family: monospace;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+
+
+    .discount-text {
+        font-size: 50px;
+        border-top: 3px solid #b5d8f7;
+        width: 150px;
+        text-align: center;
+    }
+
+    .discount {
+        width: 400px;
+        margin-right: 70px;
+        .tittle {
+            font-size: 20px;
+        }
+    }
+
+    .discount-image {
+        transition: 0.5s;
+    }
+
+    .discount-image:hover {
+        width: 420px;
+        height: 320px;
+    }
+}
