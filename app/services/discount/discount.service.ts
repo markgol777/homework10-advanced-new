@@ -21,10 +21,13 @@ export class DiscountService {
 
   delete(id: number) {
     return this.htpp.delete(`${this.api.discount}/${id}`);
-
   }
 
   edit(id: number, discount: any) {
     return this.htpp.patch(`${this.api.discount}/${id}`, discount);
+  }
+
+  getOne(id: number) {
+    return this.htpp.get(`${this.api.discount}/${id}`);
   }
 }

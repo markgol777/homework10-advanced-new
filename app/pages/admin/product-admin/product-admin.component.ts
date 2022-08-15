@@ -120,7 +120,8 @@ export class ProductAdminComponent implements OnInit {
       weight: document.querySelector<HTMLInputElement>('.weight')!.value,
       price: document.querySelector<HTMLInputElement>('.price')!.value,
       ingredients: document.querySelector<HTMLInputElement>('.ingredients')!.value,
-      image: this.img
+      image: this.img,
+      orderedProduct: 0
     }
     console.log(newDiscount);
     this.service.post(newDiscount).subscribe(data => {
@@ -167,7 +168,8 @@ export class ProductAdminComponent implements OnInit {
       weight: document.querySelector<HTMLInputElement>('.weight')!.value,
       price: document.querySelector<HTMLInputElement>('.price')!.value,
       ingredients: document.querySelector<HTMLInputElement>('.ingredients')!.value,
-      image: this.img
+      image: this.img,
+      orderedProduct: 0
     }
     console.log(this.index);
     

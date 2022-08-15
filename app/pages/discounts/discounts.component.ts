@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { DiscountService } from 'src/app/services/discount/discount.service';
-// import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-discounts',
@@ -19,6 +18,7 @@ export class DiscountsComponent implements OnInit {
   getAll() {
     this.service.getAll().subscribe(data => {
       this.discountArray = data;
+      console.log(data);
     })
   }
 

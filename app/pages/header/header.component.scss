@@ -2,6 +2,7 @@ header {
     display: flex;
     font-family: monospace;
     height: 95px;
+    
 
     a {
         text-decoration: none;
@@ -99,4 +100,26 @@ header {
             margin-left: 5px;
         }
     }
+}
+
+.delete-btn {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #b5d8f7;
+
+    .text-delete-btn {
+        color: white;
+    }
+}
+
+.order-btn2 {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cart-hidden {
+    scrollbar-width: none;
 }

@@ -1,7 +1,7 @@
 <main>
   <app-admin></app-admin>
   <div class="showMenu">
-    <button class="btn1" (click)="showMenu()">{{'додати продукти' | uppercase}}</button>
+    <button class="btn1" (click)="showMenu()">{{'додати продукти'}}</button>
     <div class="create-menu" [style.display]="showMenuProduct ? 'block' : 'none'">
       <div class="first-layer">
         <select class="category">
@@ -31,9 +31,9 @@
         <input style="margin-top: 20px;" class="uploadFile" type="file" (change)="onFileSelecte($event)">
         <button (click)="deleteImage()">delete image</button>
       </div>
-      <div *ngIf="!showSave" class="fourth-layer"><button class="btn-add"  (click)="addProduct()">Add</button>
+      <div *ngIf="!showSave" class="fourth-layer"><button class="btn-add" (click)="addProduct()">Add</button>
       </div>
-      <div *ngIf="showSave" class="fourth-layer"><button class="btn-add"  (click)="saveProduct()">Save</button>
+      <div *ngIf="showSave" class="fourth-layer"><button class="btn-add" (click)="saveProduct()">Save</button>
       </div>
     </div>
 

@@ -25,4 +25,8 @@ export class ProductsService {
   edit(id: number, discount: any) {
     return this.htpp.patch(`${this.api.discount}/${id}`, discount);
   }
+
+  getOne(id: number) {
+    return this.htpp.get(`${this.api.discount}/${id}`);
+  }
 }
